@@ -1,6 +1,6 @@
 import React from 'react'
 import './About_c.css'
-import underline from './underline.svg'
+import underline from './undraw.svg'
 
 const About_c = () => {
   return (
