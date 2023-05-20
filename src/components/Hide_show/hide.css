@@ -1,0 +1,47 @@
+/* row  */
+.Term_col{
+    margin: auto 50px;
+display: flex;
+flex-direction: column;
+}
+
+.Term_row{
+display: flex;
+flex-direction: row;
+/* justify-content: space-around; */
+}
+
+.Term_but{
+    margin: 0px 50px;
+}
+
+.Term_btn{
+position: relative;
+list-style: none;
+width: 20px;
+height: 20px;
+background: #86ff3b;
+box-shadow: 0 0 0 4px #333,0 0 0 6px #86ff3b;
+margin: 0 20px;
+border-radius: 50%;
+transition: 0.5s;
+cursor: pointer;
+}
+
+.term-h{
+font-size: 22px;
+    padding: 0px 100px;
+    font-weight: 700;
+}
+
+.term-p{
+font-size: 15px;
+    padding: 0px 100px;
+    width: 100%;
+}
+#term_box{
+    width: 38rem; 
+    border: 2px solid red;
+    margin: auto auto;
+    align-items: center;
+}

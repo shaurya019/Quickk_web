@@ -4,6 +4,8 @@ import About from './pages/About';
 import Brands from './pages/Brands';
 import Terms from './pages/Terms';
 import Policy from './pages/Policy';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 
 function App() {
