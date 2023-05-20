@@ -1,0 +1,9 @@
+.nav-link{
+    color: #3c61e2 !important;
+    font-weight: 500 !important;
+    padding: .5rem 1.5rem !important;
+}
+
+.nav-link:hover{
+    color: #0a66c2 !important;
+}
