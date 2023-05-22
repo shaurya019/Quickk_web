@@ -13,11 +13,11 @@ function NavScroll() {
           <Nav className="me-auto">
           </Nav>
           <Nav className='Nav_bar'>
-          <Nav.Link href="#features">Home</Nav.Link>
-          <Nav.Link href="#pricing">About</Nav.Link>
-          <Nav.Link href="#pricing">Brands</Nav.Link>
-          <Nav.Link href="#pricing">Cookies</Nav.Link>
-          <Nav.Link href="#pricing">Terms & Conditions</Nav.Link>
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/About">About</Nav.Link>
+          <Nav.Link href="/Brands">Brands</Nav.Link>
+          <Nav.Link href="/Policy">Cookies</Nav.Link>
+          <Nav.Link href="/Terms">Terms & Conditions</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
