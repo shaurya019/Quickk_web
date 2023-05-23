@@ -5,8 +5,9 @@ import ScaleLoader from 'react-spinners/ScaleLoader'
 // import Footer from '../components/Foot_bar/footer';
 // import Hide from '../components/Hide_show/Hide';
 import NavScroll from '../components/Nav_bar/NavScroll'
+import Card from '../components/Card/Card'
 // import Top from '../components/Top_but/Top'
-import Modal from '../components/Modal_show/Modal';
+// import Modal from '../components/Modal_show/Modal';
 
 function Home () {
   const [loading,setLoading] = useState(false);
@@ -32,8 +33,7 @@ function Home () {
       :
       <>
       <NavScroll />
-      <Modal />
-    <h1>Home</h1>
+      <Card />
     </>
     }
     </div>

@@ -1,0 +1,26 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box{
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px 2px rgba(1, 1, 1, 0.3);
+  }
+  
+  .box:hover{
+    box-shadow : none;
+    padding: 2rem 0px;
+  }
+  
+  .head{
+    font-weight: 800;
+  }
+  
+  .text-sm {font-size: 0.775rem !important;}
+  
+ .leading-7 { line-height: 1.55rem!important;}
+
+ .text-heading_color {
+  color: #3c61e2!important;
+}
