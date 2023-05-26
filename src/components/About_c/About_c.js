@@ -7,7 +7,7 @@ const About_c = () => {
     <>
     
     <div className=''>
-        <div className='About_h2'>
+      <div className='About_h2'>
       <h2>ABOUT US.</h2>
       <img src={underline} alt="sorry"/>
       </div> 

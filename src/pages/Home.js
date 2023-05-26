@@ -1,11 +1,13 @@
 import React,{useState,useEffect} from "react";
 import ScaleLoader from 'react-spinners/ScaleLoader'
+import NavScroll from '../components/Nav_bar/NavScroll'
+import Policy from '../components/Policy/Policy'
 // import But from '../components/A_But/A_button';
 // import About_c from '../components/About_c/About_c.js';
 // import Footer from '../components/Foot_bar/footer';
 // import Hide from '../components/Hide_show/Hide';
-import NavScroll from '../components/Nav_bar/NavScroll'
-import Card from '../components/Card/Card'
+// import Term from '../components/Term/Term'
+// import Card from '../components/Card/Card'
 // import Top from '../components/Top_but/Top'
 // import Modal from '../components/Modal_show/Modal';
 
@@ -33,7 +35,13 @@ function Home () {
       :
       <>
       <NavScroll />
-      <Card />
+      <Policy />
+      {/* <Term /> */}
+      {/* <Footer /> */}
+      {/* <Hide /> */}
+      {/* <About_c /> */}
+      {/* <Modal /> */}
+      {/* <Card /> */}
     </>
     }
     </div>

@@ -1,0 +1,58 @@
+.T-row{
+   max-width: 1230px;
+    padding-left: 60px;
+    padding-right: 60px;
+    /* margin: 30px 200px; */
+    margin: auto;
+}
+
+.T-col{
+display: flex;
+margin-top: 40px;
+flex-direction: column;
+}
+.T-col h2{
+margin-bottom: 50px;
+font-weight: 700;
+}
+
+.T-sec{
+display: flex;
+    margin-bottom: 40px;
+}
+
+
+.T-H h4{
+font-weight: 900;
+}
+
+.T-para{
+    padding: 0px 70px;
+}
+
+.T-para p{
+    font-size: 15px;
+    color: #8a9ab5;
+}
+
+.T-D{
+
+}
+
+.T-D {
+    color: #ffff;
+}
+
+.T-D p{
+  margin-bottom: 5px;
+}
+
+.x h5{
+    font-weight: 800;
+    color: red;
+}
+
+.x p{
+    font-weight: 800;
+    color: grey;
+}
