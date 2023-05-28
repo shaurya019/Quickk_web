@@ -2,6 +2,7 @@ import React,{useState,useEffect} from "react";
 import ScaleLoader from 'react-spinners/ScaleLoader'
 import NavScroll from '../components/Nav_bar/NavScroll'
 import Policy from '../components/Policy/Policy'
+import Q_about from '../components/Q_about/Q_about'
 import But from '../components/A_But/A_button';
 import About_c from '../components/About_c/About_c.js';
 import Footer from '../components/Foot_bar/footer';
@@ -37,8 +38,8 @@ function Home () {
       {/* <Policy /> */}
       {/* <Term /> */}
       {/* <Footer /> */}
-     
-      <About_c />
+      <Q_about />
+      {/* <About_c /> */}
       {/* <Modal /> */}
       {/* <Card /> */}
     </>
