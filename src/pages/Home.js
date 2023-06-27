@@ -11,6 +11,7 @@ import Card from '../components/Card/Card'
 import Top from '../components/Top_but/Top'
 import Modal from '../components/Modal_show/Modal';
 import Down from '../components/Down/Down';
+import Main from '../components/Main/Main';
 
 function Home () {
   const [loading,setLoading] = useState(false);
@@ -36,7 +37,8 @@ function Home () {
       :
       <>
       <NavScroll />
-      <Down />
+      <Main />
+      {/* <Down /> */}
       {/* <Policy /> */}
       {/* <Term /> */}
       {/* <Footer /> */}

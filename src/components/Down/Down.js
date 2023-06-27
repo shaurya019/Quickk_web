@@ -12,8 +12,8 @@ const Down = () => {
       <img src="" alt="sorry" />
     </div> 
     <div className='Down-app'>
-    <h3>Download the Quickk app</h3>
-    <p className="dn-para">Access video consultation with India’s top doctors on the Practo app. Connect with doctors online, available 24/7, from the comfort of your home.</p>
+    <h3>Experience the Convenience Today!</h3>
+    <p className="dn-para">Download Quickk now and discover the convenience of having your favourite tobacco products delivered right to your door. Say goodbye to the hassle of traditional shopping and embrace the simplicity of our app. With Quickk, enjoying your preferred tobacco products has never been easier.</p>
     <h4 className="dn-p">Get the link to download the app</h4>
     <p className="but-dn">Download It!</p>
     </div> 
