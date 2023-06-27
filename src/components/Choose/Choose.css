@@ -1,0 +1,100 @@
+.Choose-sec{
+    margin: 30px;
+}
+
+
+.Choose-head h3{
+    font-size: 50px;
+    margin: 30px;
+    font-weight: 800;
+}
+
+.Choose-B{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Choose-box{
+    background: #fff;
+    height: 250.63px;
+    width: 454.99px;
+    position: relative;
+    padding: 35px 30px 30px;
+    border: 1px solid #e7edff;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.Choose-box:hover{
+    background-color:#f1f4f7;
+    transition: 3s ease all;
+}
+
+.Choose-box h3{
+    font-size: 20px;
+    line-height: 150%;
+    color: #2d344d;
+    font-family: Stolzl-Regular,sans-serif;
+    font-weight: 800;
+    text-align: initial;
+    margin-bottom: 28px;
+}
+
+
+.Choose-box p{
+    font: normal 14px/165% Stolzl-Book,sans-serif;
+    color: #8a9ab5;
+    text-align: justify;
+}
+
+button {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding: .7em 2em;
+    border:2px solid #3c61e2;
+    border-radius: 2px;
+    position: relative;
+    color: #3c61e2;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+
+
+button:before{
+    transition: 0.5s ease all;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    opacity: 0;
+    left: 50%;
+    right: 50%;
+    content: '';
+    background-color: #3c61e2;
+    z-index: -1;
+}
+
+button:hover, button:focus{
+    color: white;
+}
+
+button:hover:before,button:focus:before {
+    transition: 0.5s ease all;
+    opacity: 1;
+    left: 0;
+    right: 0;
+}
+button:active{
+    transform: scale(0.9);
+}

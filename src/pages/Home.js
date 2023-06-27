@@ -13,6 +13,7 @@ import Modal from '../components/Modal_show/Modal';
 import Down from '../components/Down/Down';
 import Main from '../components/Main/Main';
 import Started from '../components/Started/Started';
+import Choose from '../components/Choose/Choose';
 
 function Home () {
   const [loading,setLoading] = useState(false);
@@ -38,7 +39,8 @@ function Home () {
       :
       <>
       <NavScroll />
-      <Started />
+      <Choose />
+      {/* <Started /> */}
       {/* <Main /> */}
       {/* <Down /> */}
       {/* <Policy /> */}
@@ -56,10 +58,3 @@ function Home () {
 
 export default Home;
 
-
-/* <But/> */
-    /* <Footer/> */
-    /* <Hide /> */
-    /* <Modal /> */
-    /* <Top /> */
-    /* <About_c/> */
