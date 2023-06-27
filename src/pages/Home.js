@@ -10,6 +10,7 @@ import Term from '../components/Term/Term'
 import Card from '../components/Card/Card'
 import Top from '../components/Top_but/Top'
 import Modal from '../components/Modal_show/Modal';
+import Down from '../components/Down/Down';
 
 function Home () {
   const [loading,setLoading] = useState(false);
@@ -35,10 +36,11 @@ function Home () {
       :
       <>
       <NavScroll />
+      <Down />
       {/* <Policy /> */}
       {/* <Term /> */}
       {/* <Footer /> */}
-      <Q_about />
+      {/* <Q_about /> */}
       {/* <About_c /> */}
       {/* <Modal /> */}
       {/* <Card /> */}

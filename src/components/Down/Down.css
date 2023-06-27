@@ -1,0 +1,48 @@
+.Down-sec{
+    width: 872px;
+    margin: auto;
+    zoom: 1;
+}
+
+.Down-row{
+margin: 30px;
+}
+
+.Down-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.Down-pic{
+
+}
+
+
+.Down-app{
+    display: flex;
+    flex-direction: column;
+}
+
+.Down-app h3{
+    text-align: left;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Lato,Helvetica,Arial,sans-serif!important;
+}
+
+.Down-app p{
+    text-align: left;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #414146;
+}
+
+.Down-app h4{
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+
