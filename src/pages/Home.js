@@ -12,6 +12,7 @@ import Top from '../components/Top_but/Top'
 import Modal from '../components/Modal_show/Modal';
 import Down from '../components/Down/Down';
 import Main from '../components/Main/Main';
+import Started from '../components/Started/Started';
 
 function Home () {
   const [loading,setLoading] = useState(false);
@@ -37,7 +38,8 @@ function Home () {
       :
       <>
       <NavScroll />
-      <Main />
+      <Started />
+      {/* <Main /> */}
       {/* <Down /> */}
       {/* <Policy /> */}
       {/* <Term /> */}

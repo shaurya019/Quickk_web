@@ -1,0 +1,31 @@
+
+.Started-sec{
+    margin: 40px 0px;
+}
+
+
+.Started-Head{
+    margin-bottom: 80px;
+}
+
+.Started-Head h2{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.Started-img{
+    display: flex;
+    justify-content: center;
+}
+
+.Started-img img{
+    height: 100px;
+}
+
+.Started-img h4{
+    padding-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+
+}
