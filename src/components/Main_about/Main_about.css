@@ -1,0 +1,77 @@
+.main-sec{
+    overflow: hidden;
+    margin-left: 160px;
+    padding-left: 56px;
+    padding-right: 56px;
+}
+.main-col{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main-text{
+    padding-top: 100px;
+    padding-bottom: 111px;
+    flex: 1 1 0%;
+    margin-right: 100px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.main-text p{
+    text-align: left;
+    margin-bottom: 0px;
+    color:rgb(0,82,255);
+    font-weight: 500;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    flex-direction: row;
+}
+
+.main-text h3{
+    text-align: left;
+    font-size: 62px;
+line-height: 1.3;
+    color: rgb(10,11,13);
+    font-weight: 500;
+    font-family: CoinbaseDisplay, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.main-text h6{
+    text-align: left;
+    font-size: 17px;
+    color: rgb(91,97,110);
+    line-height: 1.4;
+    margin-bottom: 32px;
+}
+
+.main-img{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 24px;
+    /* justify-content: flex-end; */
+    flex: 2 1 0%;
+}
+
+.main-img img{
+    height: 450px;
+    width: auto;
+    margin-top: -15px;
+    margin-left: -316px;
+}
+.circle{
+    background-color: rgb(241, 245, 254);
+    height: 400px;
+    width: 400px;
+    margin-right: 16px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+   

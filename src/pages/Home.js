@@ -14,6 +14,8 @@ import Down from '../components/Down/Down';
 import Main from '../components/Main/Main';
 import Started from '../components/Started/Started';
 import Choose from '../components/Choose/Choose';
+import Main_about from '../components/Main_about/Main_about';
+import Delivery from '../components/Delivery/Delivery';
 
 function Home () {
   const [loading,setLoading] = useState(false);
@@ -39,7 +41,9 @@ function Home () {
       :
       <>
       <NavScroll />
-      <Choose />
+      <Delivery />
+      {/* <Main_about /> */}
+      {/* <Choose /> */}
       {/* <Started /> */}
       {/* <Main /> */}
       {/* <Down /> */}

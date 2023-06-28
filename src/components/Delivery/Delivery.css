@@ -1,0 +1,50 @@
+ .Delivery-sec{
+    margin: 30px;
+ }
+ 
+ .Delivery-H h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 700;
+ }
+
+ .Delivery-img{
+    display: flex; 
+    flex-direction: row;
+    height: 370px;
+    width: 325px;
+    background: #fff;
+    position: relative;
+    padding: 35px 30px 30px;
+    border: 1px solid #e7edff;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px
+ }
+
+ .Delivery-img img {
+    height: 120px;
+    margin: 0px;
+ }
+
+ .Delivery-h h3 {
+    font-size: 24px;
+    font-weight: 800;
+    
+ }
+
+ .Delivery-h p {
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 20px;
+ }
+
+ .Delivery-box{
+    display: flex;
+    flex-direction: row;
+ }
+
+.local{
+    margin-bottom: 57px;
+}
