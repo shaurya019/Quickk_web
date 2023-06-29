@@ -1,7 +1,6 @@
 .T-row{
    max-width: 1230px;
-    padding-left: 60px;
-    padding-right: 60px;
+   padding: 0px 60px;
     /* margin: 30px 200px; */
     margin: auto;
 }
@@ -26,19 +25,32 @@ display: flex;
 font-weight: 900;
 }
 
-.T-para{
+/* .T-para{
     padding: 0px 70px;
-}
+} */
+
 
 .T-para p{
+    text-align: justify;
     font-size: 15px;
     color: #8a9ab5;
 }
 
-.T-D{
-
+.special1{
+    padding: 0px 70px;
 }
 
+.special2{
+    padding: 0px 83px;
+}
+
+.special3{
+    padding: 0px 62px;
+}
+
+.special4{
+    padding: 0px 70px;
+}
 .T-D {
     color: #ffff;
 }
@@ -55,4 +67,207 @@ font-weight: 900;
 .x p{
     font-weight: 800;
     color: grey;
+}
+
+@media (max-width:1079px) and (min-width:1025px){
+    .special3 {
+        padding: 0px 83px;
+    }
+}
+
+@media (max-width:1024px) and (min-width:1000px){
+    .special3 {
+        padding: 0px 92px;
+    }
+    .special4 {
+        padding: 0px 67px;
+    }
+    
+    
+}
+
+@media (max-width:768px)  {
+    .T-para p {
+        text-align: left;
+    }
+}
+@media (max-width:768px) and (min-width:650px){
+    .special1{
+        padding: 0px 70px;
+    }
+    
+    .special2{
+        padding: 0px 83px;
+    }
+    
+    .special3{
+        padding: 0px 92px;;
+    }
+    
+    .special4{
+        padding: 0px 70px;
+    }
+}
+
+@media (max-width:649px) and (min-width:570px) {
+    .T-row{
+        padding: 0px 40px;
+    }
+
+    .special3{
+        padding: 0px 90px;
+    }
+    .special4 {
+        padding: 0px 64px;
+    }
+    .T-para p {
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width:571px) and (min-width:475px) {
+    .T-row{
+        padding: 0px 24px;
+    }
+    .T-H h4 {
+        font-size: 18px;
+    }
+    .x h5{
+        font-size: 18px;
+    }
+    .special1{
+        padding: 0px 35px;
+    }
+    .special2 {
+        padding: 0px 49px;
+    }
+    .special3 {
+        padding: 0px 63px;
+    }
+    .special4 {
+        padding: 0px 40px;
+    }
+    .T-para p {
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width:474px) and (min-width:440px){
+    .T-row{
+        padding: 0px 24px;
+    }
+    .T-H h4 {
+        font-size: 18px;
+    }
+    .x h5{
+        font-size: 18px;
+    }
+    .special1{
+        padding: 0px 20px;
+    }
+    .special2 {
+        padding: 0px 33px;
+    }
+    .special3 {
+        padding: 0px 41px;
+    }
+    .special4 {
+        padding: 0px 20px;
+    }
+    .T-para p {
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width:440px) and (min-width:382px){
+    .T-row{
+        
+    padding: 0px 12px;
+
+    }
+    .T-H h4,.x h5 {
+        font-size: 15px;
+    }
+
+    .special1{
+        padding: 0px 20px;
+    }
+    .special2 {
+        padding: 0px 33px;
+    }
+    .special3 {
+        padding: 0px 41px;
+    }
+    .special4 {
+        padding: 0px 20px;
+    }
+    .T-para p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:382px) and (min-width:325px){
+    .T-row{
+        
+    padding: 0px 12px;
+
+    }
+    .T-H h4,.x h5 {
+        font-size: 14px;
+    }
+
+    .special1{
+        padding: 0px 12px;
+    }
+    .special2 {
+        padding: 0px 25px;
+    }
+    .special3 {
+        padding: 0px 32px;
+    }
+    .special4 {
+        padding: 0px 12px;
+    }
+    .T-para p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width:325px) and (min-width:300px){
+    .T-row{
+        
+    padding: 0px 12px;
+
+    }
+    .T-H h4,.x h5 {
+        font-size: 12px;
+    }
+
+    .special1{
+        padding: 0px 8px
+    }
+    .special2 {
+        padding: 0px 18px;
+    }
+    .special3 {
+        padding: 0px 24px;
+    }
+    .special4 {
+        padding: 0px 8px;
+    }
+    .T-para p {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 500px){
+    .rights {
+        display: flow-root;
+    }    
+.terms{
+    visibility: hidden;
+}
 }

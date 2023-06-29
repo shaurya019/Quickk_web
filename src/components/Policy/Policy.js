@@ -32,7 +32,7 @@ By using or accessing this Platform, you agree to the terms and conditions of th
 <p className="Policy-para">
 <span>“ Personal Information ”</span> refers to any information that identifies or can be used to identify, contact or locate the person, to whom such information pertains including, but not limited to, name, address, phone number and email address disclosed by you about the services available on the Platform.
 </p>
-<h2 className="Policy-h2"> 1.1 INFORMATION THAT WE COLLECT ABOUT YOU</h2>
+<h2 className="Policy-h2"> 1.1 INFORMATION</h2>
 <h6>
 Personal Information that may be collected and the manner of its use
 </h6>
@@ -120,7 +120,7 @@ Notwithstanding anything contained in this Privacy Policy or elsewhere, we shall
 </p>
 
 
-<h3 className="Policy-h3">1.7 Changes to Privacy Policy
+<h3 className="Policy-h3">1.7 Changes
 </h3>
 <p className="Policy-para">
 We may change this Privacy Policy from time to time. If we make material changes to this Privacy Policy and in the manner we treat your personal information, we will provide you notice through the Website. Your continued use of the services after such notice constitutes your consent to the changes. You are encouraged to check this Privacy Policy regularly for the latest updates to our privacy practices.
