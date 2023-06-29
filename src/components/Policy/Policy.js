@@ -7,7 +7,7 @@ const Policy = () => {
     <div className='Policy-col'>
     <div className='Policy-grid'>
     <div className='Policy-box'>
-      <h1>GROWFI PRIVACY POLICY</h1>
+      <h1>Quickk PRIVACY POLICY</h1>
     </div>
     </div>
     </div>

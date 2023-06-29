@@ -4,9 +4,8 @@ import underline from './undraw.svg'
 
 const About_c = () => {
   return (
-    <>
-    
-    <div className=''>
+    <div className='About_'>
+    <div className='About_sec'>
       <div className='About_h2'>
       <h2>ABOUT US.</h2>
       <img src={underline} alt="sorry"/>
@@ -25,7 +24,7 @@ To make your experience even more convenient, we offer a lightning-fast delivery
 </p>
     </div>    
     </div>  
-    </>
+    </div>
   )
 }
 

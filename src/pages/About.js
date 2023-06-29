@@ -1,6 +1,11 @@
 import React,{useState,useEffect} from "react";
 import ScaleLoader from 'react-spinners/ScaleLoader'
+import Main_about from '../components/Main_about/Main_about';
+import Footer from '../components/Foot_bar/footer';
 import NavScroll from '../components/Nav_bar/NavScroll'
+import About_c from '../components/About_c/About_c.js';
+import Card from '../components/Card/Card'
+import Down from '../components/Down/Down';
 
 function About () {
   const [loading,setLoading] = useState(false);
@@ -25,7 +30,11 @@ function About () {
       :
       <>
       <NavScroll />
-    <h1>About</h1>
+      <Main_about />
+      <About_c />
+      <Card />
+      <Down />
+      <Footer />
     </>
     }
     </div>

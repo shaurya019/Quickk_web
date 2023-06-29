@@ -15,7 +15,6 @@ function NavScroll() {
           <Nav className='Nav_bar'>
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/About">About</Nav.Link>
-          <Nav.Link href="/Brands">Brands</Nav.Link>
           <Nav.Link href="/Policy">Policies</Nav.Link>
           <Nav.Link href="/Terms">Terms & Conditions</Nav.Link>
           </Nav>

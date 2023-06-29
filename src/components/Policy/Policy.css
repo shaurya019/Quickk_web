@@ -26,6 +26,7 @@
 }
 
 .Policy-box h1{
+    text-transform: uppercase;
     color: #002856;
    text-align: left;
     font-size: 60px;

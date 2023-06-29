@@ -1,11 +1,18 @@
  .Delivery-sec{
-    margin: 30px;
+    margin: 250px 40px;
  }
  
+ .Delivery-H{
+   margin-bottom: 40px;
+ }
  .Delivery-H h1{
+   text-transform: uppercase;
     font-size: 40px;
-    margin-bottom: 40px;
     font-weight: 700;
+ }
+ .Delivery-H img{
+   height: 50px;
+   margin: auto;
  }
 
  .Delivery-img{
@@ -29,15 +36,17 @@
  }
 
  .Delivery-h h3 {
-    font-size: 24px;
+   text-transform: uppercase;
+   font-size: 22px;
     font-weight: 800;
-    
+    margin-top: 18px;
  }
 
  .Delivery-h p {
-    font-size: 14px;
-    text-align: justify;
-    margin-top: 20px;
+   font-size: 12px;
+   text-align: justify;
+   color: #606782;
+   margin-top: 40px;
  }
 
  .Delivery-box{
@@ -46,5 +55,5 @@
  }
 
 .local{
-    margin-bottom: 57px;
+   margin-bottom: 35px;
 }

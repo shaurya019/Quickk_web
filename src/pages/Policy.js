@@ -1,6 +1,8 @@
 import React,{useState,useEffect} from "react";
-import ScaleLoader from 'react-spinners/ScaleLoader'
 import NavScroll from '../components/Nav_bar/NavScroll'
+import ScaleLoader from 'react-spinners/ScaleLoader'
+import Policys from '../components/Policy/Policy'
+import Foot_strip from '../components/Foot_strip/Foot_strip'
 
 function Policy () {
   const [loading,setLoading] = useState(false);
@@ -15,17 +17,18 @@ function Policy () {
   return (
    <div>
     {
-      loading ? 
-      <div className="home">
-      <ScaleLoader color="#FFF" 
-      size={100}
-      cssOverride={{textAlign:"center"}}
-      loading = {loading} />
-      </div>
-      :
+      // loading ? 
+      // <div className="home">
+      // <ScaleLoader color="#FFF" 
+      // size={100}
+      // cssOverride={{textAlign:"center"}}
+      // loading = {loading} />
+      // </div>
+      // :
       <>
       <NavScroll />
-    <h1>Policy</h1>
+      <Policys />
+      <Foot_strip />
     </>
     }
     </div>

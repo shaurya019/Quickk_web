@@ -2,7 +2,7 @@ import './Card.css';
 
 export default function Card() {
   return (
-     <div className="text-center py-10">
+     <div className="Card_ text-center py-10">
         <h1 className="head text-3xl w-100 mx-auto leading-normal">
         Cancellation, Exchange & Refunds
         </h1>

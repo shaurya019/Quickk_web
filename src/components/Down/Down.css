@@ -5,7 +5,7 @@
 }
 
 .Down-row{
-margin: 30px;
+margin: 150px 30px;
 }
 
 .Down-container{
@@ -13,19 +13,23 @@ margin: 30px;
     flex-direction: row;
 }
 
-.Down-pic{
-
+.Down-pic img{
+margin: 0px;
+right: 100px;
+width: 535px;
+height: 376px;
 }
 
 
 .Down-app{
     display: flex;
     flex-direction: column;
+    margin-left: 50px;
 }
 
 .Down-app h3{
     text-align: left;
-    font-size: 32px;
+    font-size: 35px;
     font-weight: 700;
     font-family: Lato,Helvetica,Arial,sans-serif!important;
 }
@@ -33,12 +37,15 @@ margin: 30px;
 .Down-app p{
     text-align: left;
     font-size: 14px;
-    margin-top: 20px;
+    margin: 30px 0px;
+    color: #606782;
+    line-height: 1.7;
     color: #414146;
 }
 
 .Down-app h4{
     text-align: left;
+    margin-bottom: 10px;
     font-size: 16px;
     line-height: 1.5;
     margin-top: 50px;
@@ -46,3 +53,51 @@ margin: 30px;
 }
 
 
+button {
+    font-size: 18px;
+    width: 200px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding: .7em 2em;
+    border:2px solid #3c61e2;
+    border-radius: 2px;
+    position: relative;
+    background-color: #3c61e2;
+    color: #ffff;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+
+
+button:before{
+    transition: 0.5s ease all;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    opacity: 0;
+    left: 50%;
+    right: 50%;
+    content: '';
+    z-index: -1;
+    color: #ffff;
+}
+
+button:hover{
+    color: #fff;;
+    background-color: #fff;
+}
+
+button:hover:before,button:focus:before {
+    transition: 0.5s ease all;
+    opacity: 1;
+    left: 0;
+    right: 0;
+}
+button:active{
+    transform: scale(0.9);
+}

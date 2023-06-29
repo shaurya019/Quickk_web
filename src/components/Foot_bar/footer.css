@@ -13,7 +13,8 @@ body{
 	margin:auto;
 }
 .row{
-	display: flex;
+	display: flex !important;
+	flex-direction: row !important;
     justify-content: space-between;
 	flex-wrap: wrap;
     margin-bottom: 35px;
@@ -22,16 +23,16 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: #2F58CD;
-    padding: 50px 0;
+	background-color: rgb(241, 245, 254);
+    padding: 50px 0 30px;
 }
 .footer-col{
    width: 25%;
    padding: 0 15px;
 }
 .footer-col h4{
-	font-size: 22px;
-	color: #fff;
+	font-size: 28px;
+	color: rgb(91,97,110);
 	text-transform: capitalize;
     margin-bottom: 25px;
 	font-weight: 600;
@@ -47,7 +48,7 @@ ul{
     text-align: start;
 	font-size: 16px;
 	text-transform: capitalize;
-	color:#fff;;
+	color:rgb(91,97,110);
 	text-decoration: none;
 	font-weight: 300;
 	display: block;
@@ -67,42 +68,47 @@ ul{
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
-	color: #ffffff;
+	color: rgb(91,97,110);
 	transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
 	color: #24262b;
-	background-color: #ffffff;
+	background-color: rgb(91,97,110);
 }
 .foot-para{
     font-size: 16px;
     text-decoration: none;
-    color: #fff;
+    color: rgb(91,97,110);
     font-weight: 300;
     display: block;
     transition: all 0.3s ease;
     width: 100%;
     text-align: start;
+	margin-bottom: 35px;
 }
 .footer-col .follow{
     text-align: center;
 }
-hr{
+.hr{
     width: 80%;
     margin: auto;
 }
 .rights {
 display: flex;
 flex-direction: row;
-margin-top: 20px;
+margin: 20px 0px;
 justify-content: space-around;
 }
 .rights p{
-	color: #fff;
+	color: rgb(91,97,110);
 }
 .rights .terms{
 	font-weight: 600;
-	color: #fff;
+	color: rgb(91,97,110);
+}
+
+hr {
+	margin: auto;
 }
 /*responsive*/
 @media(max-width: 767px){

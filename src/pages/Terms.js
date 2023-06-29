@@ -1,6 +1,8 @@
 import React,{useState,useEffect} from "react";
 import ScaleLoader from 'react-spinners/ScaleLoader'
 import NavScroll from '../components/Nav_bar/NavScroll'
+import Term from '../components/Term/Term'
+import Foot_strip_ from '../components/Foot_strip/Foot_strip_'
 
 function Terms () {
   const [loading,setLoading] = useState(false);
@@ -25,7 +27,8 @@ function Terms () {
       :
       <>
       <NavScroll />
-    <h1>Terms</h1>
+    <Term />
+    <Foot_strip_ />
     </>
     }
     </div>

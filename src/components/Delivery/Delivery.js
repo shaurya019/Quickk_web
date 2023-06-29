@@ -4,6 +4,7 @@ import destination from "./destination.svg"
 import online from "./online.svg"
 import way from "./way.svg"
 import './Delivery.css'
+import underline from './undraw.svg'
 
 const Delivery = () => {
   return (
@@ -12,8 +13,9 @@ const Delivery = () => {
       <div className='Delivery-row'>
       <div className='Delivery-H'>
       <h1>
-      Glimpse of our current presence
+      What we are Offering
   </h1>
+  <img src={underline} alt="sorry"/>
       </div> 
       <div className='Delivery-box'>
       <div className='Delivery-img'>

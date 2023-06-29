@@ -1,21 +1,15 @@
 import React,{useState,useEffect} from "react";
 import ScaleLoader from 'react-spinners/ScaleLoader'
+import Delivery from '../components/Delivery/Delivery';
 import NavScroll from '../components/Nav_bar/NavScroll'
-import Policy from '../components/Policy/Policy'
 import Q_about from '../components/Q_about/Q_about'
 import But from '../components/A_But/A_button';
-import About_c from '../components/About_c/About_c.js';
 import Footer from '../components/Foot_bar/footer';
-import Term from '../components/Term/Term'
-import Card from '../components/Card/Card'
 import Top from '../components/Top_but/Top'
-import Modal from '../components/Modal_show/Modal';
-import Down from '../components/Down/Down';
 import Main from '../components/Main/Main';
 import Started from '../components/Started/Started';
 import Choose from '../components/Choose/Choose';
-import Main_about from '../components/Main_about/Main_about';
-import Delivery from '../components/Delivery/Delivery';
+
 
 function Home () {
   const [loading,setLoading] = useState(false);
@@ -31,29 +25,22 @@ function Home () {
   return (
     <div>
     {
-      loading ? 
-      <div className="home">
-      <ScaleLoader color="#FFF" 
-      size={100}
-      cssOverride={{textAlign:"center"}}
-      loading = {loading} />
-      </div>
-      :
+      // loading ? 
+      // <div className="home">
+      // <ScaleLoader color="#FFF" 
+      // size={100}
+      // cssOverride={{textAlign:"center"}}
+      // loading = {loading} />
+      // </div>
+      // :
       <>
       <NavScroll />
+      <Main />
+      <Q_about />
       <Delivery />
-      {/* <Main_about /> */}
+      <Started />
       {/* <Choose /> */}
-      {/* <Started /> */}
-      {/* <Main /> */}
-      {/* <Down /> */}
-      {/* <Policy /> */}
-      {/* <Term /> */}
-      {/* <Footer /> */}
-      {/* <Q_about /> */}
-      {/* <About_c /> */}
-      {/* <Modal /> */}
-      {/* <Card /> */}
+      <Footer />
     </>
     }
     </div>
