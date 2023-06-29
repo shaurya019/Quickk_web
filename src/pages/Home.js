@@ -35,10 +35,10 @@ function Home () {
       // :
       <>
       <NavScroll />
-      <Main />
-      <Q_about />
+      {/* <Main />
+      <Q_about /> */}
       <Delivery />
-      <Started />
+      {/* <Started /> */}
       {/* <Choose /> */}
       <Footer />
     </>
