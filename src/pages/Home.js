@@ -37,8 +37,8 @@ function Home () {
       <NavScroll />
       {/* <Main />
       <Q_about /> */}
-      <Delivery />
-      {/* <Started /> */}
+      {/* <Delivery /> */}
+      <Started />
       {/* <Choose /> */}
       <Footer />
     </>

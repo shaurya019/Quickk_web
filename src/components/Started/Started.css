@@ -3,7 +3,9 @@
     margin: 200px 0px;
 }
 
-
+.Started-row{
+    margin:0px 30px
+}
 .Started-Head{
     margin-bottom: 80px;
 }
@@ -15,11 +17,11 @@
 
 .Started-img{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .Started-img img{
-    height: 100px;
+    height: 130px;
     margin-bottom:10px;
 }
 
@@ -29,4 +31,67 @@
     text-align: center;
     margin-left: 50px;
 
+}
+
+.S{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (max-width: 680px) and (min-width: 562px){
+    .Started-img h4{
+        font-size: 15px;
+    }
+    .Started-img img{
+        height: 110px;
+    }
+    .Started-img {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 562px) and (min-width: 470px){
+    .Started-img img{
+        height: 100px;
+    }
+    .Started-img h4{
+        font-size: 12px;
+        margin: 0px;
+    }
+    .Started-img {
+        justify-content: space-between;
+    }
+}
+
+
+@media (max-width: 470px) and (min-width: 300px){
+    .Started-img img{
+        height: 122px;
+    }
+    .Started-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .S {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+    .Started-img h4 {
+        font-size: 17px;
+        margin-left: 35px;
+    }
+    .Started-Head h2 {
+        font-size: 38px;
+        font-weight: 800;
+    }
+    .Started-Head p{
+        visibility: hidden;
+    }
+    .Started-Head {
+        margin-bottom: 30px;
+    }
 }
