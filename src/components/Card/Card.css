@@ -32,13 +32,38 @@
   color: #3c61e2!important;
 }
 
+@media (max-width: 1024px) and (min-width : 800px){
+  .box p{
+  font-size: 10px !important;
+  text-align: justify;
+  line-height: 1.25rem!important;
+}
+.Card_ {
+  margin: 250px 15px;
+}
+.box {
+  padding: 15px 30px 30px;}
+
+}
+@media (max-width: 800px){
+  .tab{
+    flex-direction: column;
+    align-items: center;
+  }
+  .box {
+    text-align: initial;}
+}
 
 
-
-/* text-align: justify;
-    font-size: .8rem;
-    line-height: 2.2rem;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    font-weight: 400;
-    color: #606782; */
+@media (max-width: 425px) and (min-width: 300px) {
+  .box {
+    padding: 25px;
+    width: 350px;
+    height: 425px;
+    margin-bottom: 20px;
+  }
+  .box p{
+    font-size: 12px !important;
+    text-align: initial;
+  }
+}

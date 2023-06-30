@@ -1,3 +1,4 @@
+import React from 'react'
 import './Card.css';
 
 export default function Card() {
@@ -7,7 +8,7 @@ export default function Card() {
         Cancellation, Exchange & Refunds
         </h1>
         <h5 className="text-heading_color text-head_btn mb-12">Read them Carefully</h5>
-        <div className="tab flex max-w-7xl mx-auto gap-12 group">
+        <div className="_tablet tab flex max-w-7xl mx-auto gap-12 group">
             <div className="box t2 bg-white/10 duration-500 group-hover:blur-sm  hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 cursor-pointer p-8 rounded-xl mix-blend-luminosity">
                 <h4 className="uppercase text-xl font-bold text-green_btn">💸 Exchanges</h4>
                 <p className="text-sm leading-7 my-3 font-light opacity-50">
