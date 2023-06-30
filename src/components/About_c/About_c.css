@@ -38,10 +38,38 @@ flex-direction: column;
     align-items: center;
 }
 .About_para p{
-    text-align: left;
+    text-align: justify;
     font-family: "LL Circular",sans-serif;
     color: #606782;
     font-size: 15px;
-    width: 60%;
+    width: 80%;
     line-height: 1.7;
+}
+
+@media (max-width: 600px){
+    .About_h4{
+        display: none;
+    }
+}
+
+
+@media (max-width: 600px) and (min-width: 450px){
+    .About_main{
+        padding: 0px 30px;
+    }
+    .About_para p{
+        width: 90%; 
+    }
+}
+
+@media (max-width: 450px) and (min-width: 300px){
+    .About_para p{
+        font-size: 14px;
+    }
+    .About_para p {
+        width: 100%;
+    }
+    .About_main{
+        padding: 0px 30px;
+    }
 }

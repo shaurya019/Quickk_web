@@ -33,9 +33,9 @@ function About () {
       <NavScroll />
       {/* <Main_about2 /> */}
       {/* <Main_about /> */}
-      {/* <About_c />
-      <Card /> */}
-      <Down />
+      <About_c />
+      {/* <Card /> */}
+      {/* <Down /> */}
       <Footer />
     </>
     }
