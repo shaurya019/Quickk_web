@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from "react";
 import ScaleLoader from 'react-spinners/ScaleLoader'
 import Main_about from '../components/Main_about/Main_about';
+import Main_about2 from '../components/Main_about/Main_about2';
 import Footer from '../components/Foot_bar/footer';
 import NavScroll from '../components/Nav_bar/NavScroll'
 import About_c from '../components/About_c/About_c.js';
@@ -30,9 +31,10 @@ function About () {
       :
       <>
       <NavScroll />
-      <Main_about />
-      <About_c />
-      <Card />
+      {/* <Main_about2 /> */}
+      {/* <Main_about /> */}
+      {/* <About_c />
+      <Card /> */}
       <Down />
       <Footer />
     </>

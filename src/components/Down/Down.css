@@ -1,5 +1,5 @@
 .Down-sec{
-    width: 872px;
+    width: 60%;
     margin: auto;
     zoom: 1;
 }
@@ -100,4 +100,105 @@ button:hover:before,button:focus:before {
 }
 button:active{
     transform: scale(0.9);
+}
+
+@media (max-width: 1024px){
+    .Down-sec {
+        width: 100%;
+    }
+    .btn_dwn {
+        border-radius: 20px;
+    }
+}
+@media (max-width: 1024px) and (min-width: 700px){
+    .Down-pic img {
+        width: 400px;
+    }    
+    .Down-app p{
+        width: 75%;
+    font-size: 12px;
+    margin: 18px 0px;
+    }
+    .Down-app h4{
+        margin-top: 20px;
+    }
+    .btn_dwn{
+        border-radius: 20px;
+        font-weight: 900;
+        font-size: 16px;
+    }
+}
+@media (max-width: 900px) and (min-width: 700px){
+    .Down-pic img {
+        width: 520px;
+    } 
+}
+@media (max-width: 700px) and (min-width: 550px){
+.Down-pic img {
+    margin: 0px;
+    width: 700px;
+    height: 300px;
+}
+    .Down-app h4{
+        margin-top: 20px;
+    }
+    .btn_dwn{
+        border-radius: 20px;
+        font-weight: 900;
+    }
+    .Down-app h3 {
+        font-size: 22px
+    }
+    .Down-app p{
+        width: 60%;
+    }
+}
+
+
+@media (max-width: 650px) and (min-width: 300px){
+    .Down-app h3 {
+        font-size: 28px;
+    }
+    .Down-app p{
+        width: 80%;
+        font-size: 12px;
+        margin: 14px 0px;
+    }
+    .Down-app h4 {
+       display: none;
+    }
+    .Down-app {
+        margin-left: 38px;
+    }
+    
+}
+
+
+@media (max-width: 532px) and (min-width: 400px){
+    .Down-pic img {
+        width: 1000px;
+        height: 350px;
+    }
+    .btn_dwn{
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+
+
+@media (max-width: 400px) and (min-width: 300px){
+    .Down-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .Down-pic img {
+        margin: auto;
+        right: 100px;
+        width: 155px;
+        height: 300px;
+    }
+    .Down-app {
+        /* margin-left: 38px; */
+        margin-top: 35px;
+    }
 }

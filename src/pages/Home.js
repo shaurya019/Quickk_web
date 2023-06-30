@@ -7,6 +7,7 @@ import But from '../components/A_But/A_button';
 import Footer from '../components/Foot_bar/footer';
 import Top from '../components/Top_but/Top'
 import Main from '../components/Main/Main';
+import Main2 from '../components/Main/Main2.js';
 import Started from '../components/Started/Started';
 import Choose from '../components/Choose/Choose';
 
@@ -35,12 +36,13 @@ function Home () {
       // :
       <>
       <NavScroll />
-      {/* <Main />
-      <Q_about /> */}
+      <Main />
+      <Main2 />
+      {/* <Q_about />  */}
       {/* <Delivery /> */}
-      <Started />
+      {/* <Started /> */}
       {/* <Choose /> */}
-      <Footer />
+      {/* <Footer /> */}
     </>
     }
     </div>
