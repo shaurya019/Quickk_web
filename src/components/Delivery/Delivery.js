@@ -1,8 +1,8 @@
 import React from 'react'
-import delivery from "./delivery.svg"
-import destination from "./destination.svg"
-import online from "./online.svg"
-import way from "./way.svg"
+import delivery from "./img1.svg"
+import destination from "./img2.svg"
+import online from "./img4.svg"
+import way from "./img3.svg"
 import './Delivery.css'
 import underline from './undraw.svg'
 

@@ -16,10 +16,10 @@
 }
 
 p{
-  font-family: "LL Circular",sans-serif;
+  font-family: sans-serif;
 }
 button{
-  font-family: "LL Circular",sans-serif;
+  font-family: sans-serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {

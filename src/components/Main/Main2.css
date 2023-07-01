@@ -28,11 +28,17 @@
     width: 70%;
 }
 
-.Main2-text p{
-    text-align: left;
+.Main2-text p {
     line-height: 1.5;
-    letter-spacing: 1.2px;
+    width: 85%;
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 500;
+    color: #606782;
+    letter-spacing: 1.3px;
 }
+
+
 
 
 @media (max-width: 1245px) and (min-width: 1000px){
