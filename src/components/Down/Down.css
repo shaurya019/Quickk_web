@@ -64,13 +64,13 @@ button {
     font-weight: bold;
     padding: .7em 2em;
     border:2px solid #3c61e2;
-    border-radius: 2px;
     position: relative;
     background-color: #3c61e2;
     color: #ffff;
     text-decoration: none;
     transition: 0.3s ease all;
     z-index: 1;
+    border-radius: 20px;
 }
 
 
@@ -102,12 +102,10 @@ button:active{
     transform: scale(0.9);
 }
 
+
 @media (max-width: 1024px){
     .Down-sec {
         width: 100%;
-    }
-    .btn_dwn {
-        border-radius: 20px;
     }
 }
 @media (max-width: 1024px) and (min-width: 700px){
@@ -127,6 +125,14 @@ button:active{
         font-weight: 900;
         font-size: 16px;
     }
+}
+
+
+@media (max-width: 900px) and (min-width: 800px){
+.box p {
+    font-size: 9px !important;
+
+}
 }
 @media (max-width: 900px) and (min-width: 700px){
     .Down-pic img {
