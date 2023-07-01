@@ -140,11 +140,6 @@ button:active{
     } 
 }
 @media (max-width: 700px) and (min-width: 550px){
-.Down-pic img {
-    margin: 0px;
-    width: 700px;
-    height: 300px;
-}
     .Down-app h4{
         margin-top: 20px;
     }
@@ -159,7 +154,13 @@ button:active{
         width: 60%;
     }
 }
-
+@media (max-width: 700px) and (min-width: 535px){
+    .Down-pic img {
+        margin: 0px;
+        width: 600px;
+        height: 300px;
+    }
+    }
 
 @media (max-width: 650px) and (min-width: 300px){
     .Down-app h3 {
