@@ -42,7 +42,7 @@ function Home () {
       <Delivery />
       <Started />
       {/* <Choose /> */}
-      {/* <Footer /> */}
+      <Footer />
     </>
     }
     </div>

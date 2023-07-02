@@ -7,7 +7,7 @@ function NavScroll() {
   return (
     <Navbar collapseOnSelect expand="lg" >
       <Container className='nav-c' bg="primary">
-        <Navbar.Brand href="#home">Quickk</Navbar.Brand>
+        <Navbar.Brand className='nav-heading' href="#home">Quickk</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">

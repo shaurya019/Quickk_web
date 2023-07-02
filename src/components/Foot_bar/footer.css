@@ -23,8 +23,8 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: rgb(241, 245, 254);
-    padding: 30px 0px;
+	background-color: #002856;
+    padding: 15px 0px 0px 0px;
 }
 .footer-col{
    width: 25%;
@@ -32,7 +32,7 @@ ul{
 }
 .footer-col h4{
 	font-size: 28px;
-	color: rgb(91,97,110);
+	color: #FFFF;
 	text-transform: capitalize;
     margin-bottom: 25px;
 	font-weight: 600;
@@ -48,7 +48,7 @@ ul{
     text-align: start;
 	font-size: 16px;
 	text-transform: capitalize;
-	color:rgb(91,97,110);
+	color: #FFFF;
 	text-decoration: none;
 	font-weight: 300;
 	display: block;
@@ -63,7 +63,7 @@ ul{
     font-weight: 600;
 	height: 40px;
 	width: 40px;
-	background-color: rgba(255,255,255,0.2);
+	color: #FFFF;
 	margin:0 10px 10px 0;
 	text-align: center;
 	line-height: 40px;
@@ -73,12 +73,12 @@ ul{
 }
 .footer-col .social-links a:hover{
 	color: #24262b;
-	background-color: rgb(91,97,110);
+	background-color: #ffff;
 }
 .foot-para{
     font-size: 16px;
     text-decoration: none;
-    color: rgb(91,97,110);
+    color: #FFFF;
     font-weight: 300;
     display: block;
     transition: all 0.3s ease;
@@ -90,21 +90,22 @@ ul{
     text-align: center;
 }
 .hr{
+	color: #ffff;
     width: 80%;
     margin: auto;
 }
 .rights {
 display: flex;
 flex-direction: row;
-margin: 20px 0px;
+margin: 10px 0px 0px 0px;
 justify-content: space-around;
 }
 .rights p{
-	color: rgb(91,97,110);
+	color: #FFFF;
 }
 .rights .terms{
 	font-weight: 600;
-	color: rgb(91,97,110);
+	color: #FFFF;
 }
 
 hr {
@@ -114,7 +115,7 @@ hr {
 @media(max-width: 767px){
   .footer-col{
     width: 50%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 }
 @media(max-width: 574px){

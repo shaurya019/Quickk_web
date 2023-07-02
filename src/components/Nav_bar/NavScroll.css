@@ -1,7 +1,8 @@
 .nav-link{
     color: #f4f4f4 !important;
-    font-size: 14px !important;
-    font-weight: 500 !important;
+    text-align: left;
+    font-size: 15px !important;
+    font-weight: 600 !important;
     line-height: 17px !important;
     padding: 12px 16px !important;
     vertical-align: baseline !important;
@@ -10,18 +11,31 @@
     padding: .5rem 1.5rem !important; */
 }
 
+.nav-heading{
+    color: #ffff !important;
+}
 .nav-link:hover{
-    color: #0a66c2 !important;
+    color: #ffff !important;
 }
 
 .nav-c{
     border-radius: 10px;
     padding: 0 40px 0 56px;
-    background-color: #3c61e2;
+    background-color: #002856;
 }
 
 .navbar-toggler{
-    width: 65px;
+    width: 60px;
+    background-color: #f4f4f4 !important;
     margin: 10px;
 }
 
+.navbar-toggler:hover{
+    background-color: #f4f4f4 !important;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+}
