@@ -39,10 +39,10 @@ const footer = () => {
             </div>
         </div>
     </div>
-    <hr className='hr' />
-   <div className='rights'>
+    <hr className='hr RH' />
+   <div className='rights R'>
    <p>© 2023 All rights reserved. — Quickk.com</p>
-   <p className='terms'>Terms and Conditions</p>
+   <p className='terms T'>Terms and Conditions</p>
    </div>
 </footer>
 

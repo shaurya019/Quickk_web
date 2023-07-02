@@ -70,7 +70,8 @@
 }
 @media (max-width: 430px) and (min-width: 300px){
    .Delivery-H h1{
-      font-size: 28px;
+      font-size: 38px;
+      font-weight: 900;
    }
    .Delivery-H img {
       height: 36px;
@@ -81,13 +82,15 @@
    .Delivery-box {
       display: flex;
       flex-direction: column;
-      flex-wrap: wrap;
+
       justify-content: center;
       margin: auto;
       align-items: center;
   }
   .Delivery-img{
    margin-bottom: 25px;
+   width: 315px;
+   margin: 20px 0px;
   }  
 }
 

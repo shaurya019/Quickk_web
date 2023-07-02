@@ -28,21 +28,21 @@ function Home () {
   return (
     <div>
     {
-      // loading ? 
-      // <div className="home">
-      // <ScaleLoader color="#FFF" 
-      // size={100}
-      // cssOverride={{textAlign:"center"}}
-      // loading = {loading} />
-      // </div>
-      // :
+      loading ? 
+      <div className="home">
+      <ScaleLoader color="#FFF" 
+      size={100}
+      cssOverride={{textAlign:"center"}}
+      loading = {loading} />
+      </div>
+      :
       <>
       <NavScroll />
       <Main />
       <Main2 />
       <Q_about /> 
       <Choose2 />
-      {/* <Choose /> */}
+      <Choose />
       <Delivery />
       <Started />
       <Footer />

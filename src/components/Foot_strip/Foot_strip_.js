@@ -1,13 +1,13 @@
 import React from 'react'
-import "../Foot_bar/footer.css"
+import "./Foot.css"
 
 const Foot_strip_ = () => {
   return (
    <>
-    <hr className='hr' />
-   <div className='rights'>
+    <hr className='hr rh' />
+   <div className='rights right'>
    <p>© 2023 All rights reserved. — Quickk.com</p>
-   <p className='terms'>Privacy Policies</p>
+   <p className='terms term'>Privacy Policies</p>
    </div></>
   )
 }

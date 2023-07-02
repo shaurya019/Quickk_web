@@ -1,18 +1,18 @@
-.hr {
+.rh{
     color: #002856;
     width: 80%;
-    margin: auto;
+    margin: 14px auto;
 }
 
-.rights{
+.right{
     display: flex;
     justify-content: space-around;
 }
-.rights p {
+.right p {
     color: #002856;
 }
 
-.rights .terms {
+.right .term {
     font-weight: 600;
     color: #002856;
 }

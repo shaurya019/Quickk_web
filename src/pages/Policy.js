@@ -17,14 +17,14 @@ function Policy () {
   return (
    <div>
     {
-      // loading ? 
-      // <div className="home">
-      // <ScaleLoader color="#FFF" 
-      // size={100}
-      // cssOverride={{textAlign:"center"}}
-      // loading = {loading} />
-      // </div>
-      // :
+      loading ? 
+      <div className="home">
+      <ScaleLoader color="#FFF" 
+      size={100}
+      cssOverride={{textAlign:"center"}}
+      loading = {loading} />
+      </div>
+      :
       <>
       <NavScroll />
       <Policys />

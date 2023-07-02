@@ -1,10 +1,9 @@
 import React from 'react'
 import "./Choose2.css"
-import png from "./icon.png"
 const Choose2 = () => {
   return (
     <>
-    <div className='Choose-sec'>
+    <div className='Choos-sec'>
     <div className='Choose-row'>
     <div className='Section_choose'>
     <div className='choose'>
@@ -52,7 +51,6 @@ const Choose2 = () => {
     </p>
         </div>   
     </div>  
-      
     </div>
     </div>
     </div> 

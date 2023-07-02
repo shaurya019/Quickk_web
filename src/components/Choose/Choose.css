@@ -1,4 +1,5 @@
 .Choose-sec{
+    display: none;
     margin: 30px;
 }
 
@@ -23,7 +24,7 @@
     height: 250.63px;
     width: 454.99px;
     position: relative;
-    padding: 35px 30px 30px;
+    padding: 25px;
     border: 1px solid #e7edff;
     border-radius: 2px;
     display: flex;
@@ -98,4 +99,97 @@ button:hover:before,button:focus:before {
 }
 button:active{
     transform: scale(0.9);
+}
+
+
+@media (max-width: 1400px){
+    .Choose-sec{
+        display: flex;
+    }
+    .Choose-sec{
+        margin: 0px;
+    }
+}
+
+@media (max-width: 550px) and (min-width: 465px){
+    .Choose-box {
+        background: #fff;
+        height: 235.63px;
+        width: 415px;
+        position: relative;
+        padding: 20px;
+        border: 1px solid #e7edff;
+        border-radius: 2px;
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+    }
+    .Choose-box p {
+        font: normal 13px/165% Stolzl-Book,sans-serif;
+        color: #8a9ab5;
+        text-align: justify;
+    }
+    .Choose-box h3 {
+        font-size: 25px;
+        line-height: 140%;
+        color: #002856;
+        font-family: Stolzl-Regular,sans-serif;
+        font-weight: 900;
+        text-align: initial;
+        margin-bottom: 15px;
+    }
+}
+
+
+@media (max-width: 465px) and (min-width: 348px){
+    .Choose-box {
+        background: #fff;
+        height: 215.63px;
+        width: 350px;
+        position: relative;
+        padding: 16px;
+        border: 1px solid #e7edff;
+        border-radius: 2px;
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+    .Choose-box p {
+        font: normal 13px/150% Stolzl-Book,sans-serif;
+        color: #8a9ab5;
+        text-align: justify;
+    }
+    .Choose-box h3 {
+        font-size: 23px;
+        line-height: 140%;
+        color: #002856;
+        font-family: Stolzl-Regular,sans-serif;
+        font-weight: 900;
+        text-align: initial;
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 348px) and (min-width: 310px){
+    .Choose-box {
+        background: #fff;
+        height: 230.63px;
+        width: 310px;
+        position: relative;
+        padding: 14px;
+        border: 1px solid #e7edff;
+        border-radius: 2px;
+        display: flex;
+        flex-direction: column;
+        margin: 23px 0px;
+    }
+    .Choose-box p {
+        font: normal 12px/150% Stolzl-Book,sans-serif;
+        color: #8a9ab5;
+        text-align: justify;
+    }
+    .Choose-box h3 {
+        font-size: 22px;
+        margin-bottom:15px;
+    }
 }

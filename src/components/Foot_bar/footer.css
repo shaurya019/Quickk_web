@@ -88,23 +88,23 @@ ul{
 .footer-col .follow{
     text-align: center;
 }
-.hr{
-	color: #ffff;
+.RH{
+	color: #ffff !important;
     width: 80%;
     margin: auto;
 }
-.rights {
+.R {
 display: flex;
 flex-direction: row;
 margin: 10px 0px 0px 0px;
 justify-content: space-around;
 }
-.rights p{
-	color: #FFFF;
+.R p{
+	color: #FFFF !important;
 }
-.rights .terms{
+.R .T{
 	font-weight: 600;
-	color: #FFFF;
+	color: #FFFF !important;
 }
 
 hr {

@@ -4,10 +4,10 @@ import "./Foot.css"
 const Foot_strip = () => {
   return (
    <>
-    <hr className='hr' />
-   <div className='rights'>
+    <hr className='hr rh' />
+   <div className='rights right'>
    <p>© 2023 All rights reserved. — Quickk.com</p>
-   <p className='terms'>Terms and Conditions</p>
+   <p className='terms term'>Terms and Conditions</p>
    </div></>
   )
 }
