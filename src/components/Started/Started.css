@@ -14,6 +14,11 @@
     font-size: 45px;
     font-weight: 600;
 }
+.Started-Head p{
+    color: #3c61e2;
+    font-size: 12px;
+    font-weight: 700;
+}
 
 .Started-img{
     display: flex;

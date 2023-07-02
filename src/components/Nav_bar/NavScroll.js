@@ -5,8 +5,8 @@ import './NavScroll.css'
 
 function NavScroll() {
   return (
-    <Navbar collapseOnSelect expand="lg">
-      <Container className='nav-c'>
+    <Navbar collapseOnSelect expand="lg" >
+      <Container className='nav-c' bg="primary">
         <Navbar.Brand href="#home">Quickk</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

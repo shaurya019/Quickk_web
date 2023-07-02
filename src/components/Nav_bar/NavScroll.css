@@ -1,5 +1,5 @@
 .nav-link{
-    color: #3c61e2 !important;
+    color: #f4f4f4 !important;
     font-size: 14px !important;
     font-weight: 500 !important;
     line-height: 17px !important;
@@ -15,8 +15,9 @@
 }
 
 .nav-c{
+    border-radius: 10px;
     padding: 0 40px 0 56px;
-    background-color: #f4f4f4;
+    background-color: #3c61e2;
 }
 
 .navbar-toggler{

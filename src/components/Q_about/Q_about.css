@@ -49,7 +49,9 @@ padding: 20px;
     margin-left: 80px;
 }
 
-
+span{
+    color:#3c61e2;
+}
 @media (max-width: 1024px) and (min-width: 700px){
     .Q-P h2 {
     width: 82%;

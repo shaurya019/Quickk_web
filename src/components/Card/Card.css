@@ -29,7 +29,13 @@
  .leading-7 { line-height: 1.55rem!important;}
 
  .text-heading_color {
+  font-size: 15px;
   color: #3c61e2!important;
+  font-weight: 700;
+}
+
+.box p{
+  text-align: justify;
 }
 
 @media (max-width: 1024px) and (min-width : 800px){
