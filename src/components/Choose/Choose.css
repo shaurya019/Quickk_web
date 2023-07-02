@@ -37,14 +37,15 @@
 }
 
 .Choose-box h3{
-    font-size: 20px;
+    font-size: 26px;
     line-height: 150%;
-    color: #2d344d;
+    color: #002856;
     font-family: Stolzl-Regular,sans-serif;
-    font-weight: 800;
+    font-weight: 900;
     text-align: initial;
-    margin-bottom: 28px;
+    margin-bottom: 18px;
 }
+
 
 
 .Choose-box p{

@@ -47,7 +47,6 @@ const Choose = () => {
     </div> 
     </div>
     </div> 
-    <button>Back To Top</button>
     </>
   )
 }

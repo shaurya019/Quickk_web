@@ -10,9 +10,11 @@ display: flex;
 margin: 50px 0px;
 flex-direction: column;
 }
-.T-col h2{
-margin-bottom: 50px;
-font-weight: 700;
+
+.T-col h2 {
+    margin-bottom: 50px;
+    font-weight: 800;
+    color: #002856;
 }
 
 .T-sec{
@@ -23,6 +25,7 @@ display: flex;
 
 .T-H h4{
 font-weight: 900;
+color: #002856;
 }
 
 /* .T-para{

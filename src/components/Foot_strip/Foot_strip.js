@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Foot_bar/footer.css"
+import "./Foot.css"
 
 const Foot_strip = () => {
   return (

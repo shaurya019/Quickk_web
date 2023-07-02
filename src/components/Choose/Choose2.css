@@ -1,0 +1,133 @@
+.Section_choose{
+display: flex;
+flex-direction: row;
+}
+
+.choose{
+    display: flex;
+    flex-direction: column;
+}
+
+.Choose{
+    height: 255.63px;
+    width: 420.99px;
+    padding: 35px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 55px;
+    font-weight: 900;
+}
+.Choos-box {
+    background: #fff;
+    height: 221.63px;
+    width: 420.99px;
+    position: relative;
+    padding: 20px 30px;
+    border: 1px solid #e7edff;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.Choo-box{
+    background: #fff;
+    height: 281.63px;
+    width: 420.99px;
+    position: relative;
+    padding: 20px 30px;
+    border: 1px solid #e7edff;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.Choos-sec{
+    margin: 30px;
+}
+
+
+.Choos-head h3{
+    font-size: 50px;
+    margin: 30px;
+    font-weight: 800;
+}
+
+.Choos-B{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Choos-box:hover{
+    background-color:#f1f4f7;
+    transition: 3s ease all;
+}
+.Choo-box h3{
+    font-size: 26px;
+    line-height: 150%;
+    color: #002856;
+    font-family: Stolzl-Regular,sans-serif;
+    font-weight: 900;
+    text-align: initial;
+    margin-bottom: 18px;
+}
+
+
+.Choos-box h3{
+    font-size: 26px;
+    line-height: 150%;
+    color: #002856;
+    font-family: Stolzl-Regular,sans-serif;
+    font-weight: 900;
+    text-align: initial;
+    margin-bottom: 18px;
+}
+
+
+.Choo-box p{
+    font: normal 12px/165% Stolzl-Book,sans-serif;
+    color: #8a9ab5;
+    text-align: justify;
+}
+.Choos-box p{
+    font: normal 12px/165% Stolzl-Book,sans-serif;
+    color: #8a9ab5;
+    text-align: justify;
+}
+
+
+.hot{
+    display: flex;
+    height: 24px;
+    position: relative;
+    background: #f8d8d9;
+    border-radius: 3px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 13px;
+    font-family: Stolzl-Medium,sans-serif;
+    color: #b62b2f;
+    font-weight: 900;
+    padding: 6px 20px;
+    transition: all .3s;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: center;
+}
+.hot:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    transform: translateY(-53%);
+    width: 7px;
+    height: 10px;
+    /* background: url(/wp-content/themes/icoda/assets/images/ico-label-hot.svg) 0 0 no-repeat; */
+}
