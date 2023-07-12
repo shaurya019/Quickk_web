@@ -41,7 +41,7 @@ const footer = () => {
     </div>
     <hr className='hr RH' />
    <div className='rights R'>
-   <p>© 2023 All rights reserved. — Quickk.com</p>
+   <p>© 2023 All rights reserved. — <a href="http://quickk.co.in/">Quickk.co.in</a></p>
    <p className='terms T'>Terms and Conditions</p>
    </div>
 </footer>
