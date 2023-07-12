@@ -3,9 +3,7 @@ import ScaleLoader from 'react-spinners/ScaleLoader'
 import Delivery from '../components/Delivery/Delivery';
 import NavScroll from '../components/Nav_bar/NavScroll'
 import Q_about from '../components/Q_about/Q_about'
-import But from '../components/A_But/A_button';
 import Footer from '../components/Foot_bar/footer';
-import Top from '../components/Top_but/Top'
 import Main from '../components/Main/Main';
 import Main2 from '../components/Main/Main2.js';
 import Started from '../components/Started/Started';
