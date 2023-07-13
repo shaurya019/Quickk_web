@@ -11,7 +11,10 @@
 .right p {
     color: #002856;
 }
-
+.right a{
+    color: #002856;
+    text-decoration: none;
+}
 .right .term {
     font-weight: 600;
     color: #002856;

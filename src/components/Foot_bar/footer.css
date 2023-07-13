@@ -93,6 +93,10 @@ ul{
     width: 80%;
     margin: auto;
 }
+.R a{
+	color: #ffff;
+	text-decoration: none;
+}
 .R {
 display: flex;
 flex-direction: row;
