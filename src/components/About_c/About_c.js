@@ -12,10 +12,10 @@ const About_c = () => {
       </div> 
     </div>
     <div className='About_main'>
-    <div className='About_h4'>
+    {/* <div className='About_h4'>
       <h4>About us.</h4>
       <h4>Our Team</h4>
-    </div> 
+    </div>  */}
     <div className='About_para'>
       <p>Welcome to Quickk, your premier destination for quick and convenient convenience product delivery. We understand the importance of time and convenience in today's fast-paced world, and that's why we've created a seamless platform that brings your favorite tobacco products right to your doorstep.Our app is designed with user-friendliness in mind, ensuring that you can effortlessly navigate through our intuitive interface and find exactly what you're looking for. With detailed product descriptions and images, you can make informed decisions and find the perfect tobacco products that cater to your preferences.
 </p>
