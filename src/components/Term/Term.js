@@ -1,5 +1,7 @@
 import React from 'react'
 import './Term.css'
+import Privacy from './Privacy.pdf';
+import Terms from './Terms.pdf';
 const Term = () => {
   return (
    <>
@@ -15,8 +17,8 @@ const Term = () => {
    </div> 
    <div className='T-D x'>
    <h5>Download:</h5>
-   <p className="x1">.pdf</p>
-   <p className="x2">.doc</p>
+   <a className='' href={Privacy} download>.pdf</a>
+   <a className='' href={Terms} download>.pdf</a>
    </div>  
    </div> 
    <div className='T-sec'>

@@ -58,7 +58,9 @@ color: #002856;
     color: #ffff;
 }
 
-.T-D p{
+.T-D a{
+    display: flex;
+    flex-direction: row;
   margin-bottom: 5px;
 }
 
@@ -66,12 +68,14 @@ color: #002856;
     font-weight: 800;
     color: red;
 }
-
-.x p{
+.x a{
     font-weight: 800;
     color: grey;
 }
 
+a{
+    text-decoration: none !important;
+}
 @media (max-width:1079px) and (min-width:1025px){
     .special3 {
         padding: 0px 83px;
